@@ -1,0 +1,10 @@
+{
+    "It is not possible to update multiple values. It is expected a associative array.": "It is not possible to update multiple values. It is expected a associative array.",
+    "For security reasons you need to declare conditions with 'where' clause for this operation": "For security reasons you need to declare conditions with 'where' clause for this operation",
+    "Searching tables in database '%s' from server '%s'": "Searching tables in database '%s' from server '%s'",
+    "'%s' tables found": "'%s' tables found",
+    "Generating model for table '%s' as '%s'": "Generating model for table '%s' as '%s'",
+    "ATTENTION: Do not change this file. It was automatically generated and can be deleted in future": "ATTENTION: Do not change this file. It was automatically generated and can be deleted in future",
+    "Auto generated Model from server '%s' database '%s' for table '%s'": "Auto generated Model from server '%s' database '%s' for table '%s'",
+    "Column '%s' is not part of table '%s'": "Column '%s' is not part of table '%s'"
+}

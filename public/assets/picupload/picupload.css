@@ -1,0 +1,45 @@
+.picupload{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 9;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	transition: 0.5s all ease;
+	opacity: 0;
+}
+.picupload:hover{
+	opacity: 1;
+}
+.picupload-bg{
+	flex: 0 0 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 0;
+	background-color: #000;
+	opacity: 0.8;
+}
+.picupload-bt{
+	border:1px solid #CCC;
+	border-radius: 100%;
+	padding: 10px 13px;
+	background-color: #FFF;
+	cursor: pointer;
+	opacity: 0.8;
+	transition: 0.3s all ease;
+}
+.picupload-bt i{
+	color: #000;
+}
+.picupload-bt:hover{
+	opacity: 1;
+	background-color: #666;
+	border:1px solid #666;
+}
+.picupload-bt:hover i{
+	color: #FFF;
+}

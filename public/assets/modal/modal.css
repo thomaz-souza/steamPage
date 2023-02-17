@@ -1,0 +1,108 @@
+@keyframes appear-modal{
+	0%{ opacity: 0 }
+	100%{ opacity: 1 }
+}	
+
+.modal
+{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	display: none;		
+	align-items: center;
+	justify-content: center;
+	z-index: 990;
+	transition: 0.2s all ease;
+	animation: 0.2s ease appear-modal;
+	opacity: 1;
+	top: 0;
+	left: 0;
+}
+.modal-content{
+	position: relative;
+	max-width: 70%;
+	background-color: #FFF;
+	border-radius: 5px; 
+	-webkit-box-shadow: 2px 2px 28px 1px rgba(0,0,0,0.33);
+	-moz-box-shadow: 2px 2px 28px 1px rgba(0,0,0,0.33);
+	box-shadow: 2px 2px 28px 1px rgba(0,0,0,0.33);
+}
+.modal-content .modal-head,
+.modal-content .modal-body,
+.modal-content .modal-footer{
+	min-width: 350px;
+	display: flex;
+}
+
+@media screen and (max-width: 1000px)
+{
+	.modal-content .modal-head,
+	.modal-content .modal-body,
+	.modal-content .modal-footer{
+		min-width: 0px;
+	}
+	.modal-content{
+		max-width: 95%;
+	}
+}
+
+
+.modal-content .modal-head{		
+	padding: 20px 20px 10px 20px;
+	display: flex;
+}
+.modal-title {
+	flex: 1 1;
+	font-size: 20px;
+	font-weight: 600;
+}
+.modal-close {
+	flex: 0 0 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	color: #999;
+}
+.modal-close:hover{
+	color: #330000;
+}
+.modal-content .modal-body{
+	padding: 10px 20px 20px 20px;
+}
+.modal-content .modal-footer{
+	border-top: 1px solid #E7E7E7;
+	padding: 10px 20px 20px 20px;
+	justify-content: flex-end;
+}
+.modal-content .modal-footer button{
+	background-image: linear-gradient(30deg, #fe816d 50%, transparent 50%);
+    background-size: 850px;
+    background-repeat: no-repeat;
+    background-position: 0;
+    border: 2px solid #fe816d;
+    border-radius: 8px;
+    cursor: pointer;
+    letter-spacing: 0.05em;
+    padding: 2px 10px;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+    width: auto;
+    display: inline-block;
+    font-size: 14px;
+    padding: 9px 16px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.modal-content .modal-footer button.gray{
+	background-image: linear-gradient(30deg, #AAA 50%, #CCC 50%);
+	border: 2px solid #AAA;
+}
+.modal-content .modal-footer button:hover{
+	opacity: 0.7;
+}
+
+.blocked .modal-close, .blocked button[data-modal='close']{
+	display: none;
+}

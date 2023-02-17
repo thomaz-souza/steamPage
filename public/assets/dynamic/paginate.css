@@ -1,0 +1,18 @@
+.paginate-item-page,.paginate-item-separator
+{
+	display: inline-block;		
+	margin: 0px 2px;
+	padding: 5px;
+	border-radius: 3px;
+    min-width: 18px;
+    text-align: center;
+    user-select: none;
+}
+.paginate-item-page{
+	border: 1px solid #E3E3E3;
+	cursor: pointer;
+}
+.paginate-item-page.current-page{
+	background-color: #E3E3E3;
+	cursor: default;
+}

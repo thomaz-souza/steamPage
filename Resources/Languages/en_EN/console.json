@@ -1,0 +1,9 @@
+{
+    "Starting...": "Starting...",
+    "Calling method": "Calling method",
+    "Malformed request. Expecting following information \"class:function\"": "Malformed request. Expecting following information \"class:function\"",
+    "ERROR": "ERROR",
+    "Class '%s' doesn't exists": "Class '%s' doesn't exists",
+    "Method '%s' doesn't exists in this class": "Method '%s' doesn't exists in this class",
+    "Finished. (Execution time: %s)": "Finished. (Execution time: %s)"
+}

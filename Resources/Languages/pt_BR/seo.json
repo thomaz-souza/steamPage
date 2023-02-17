@@ -1,0 +1,20 @@
+{
+	"SEO": "SEO",
+	"Pages":"Páginas",
+	"Robots":"Robots",
+	"Edit page SEO":"Editando SEO da página",
+	"Here goes the page's title":"Aqui vem o título da página",
+	"Page title":"Título da página",
+	"If the page title is being created dynamically by the developer, your changes here can be changed or not appear as desired.":"Se o título dessa página estiver sendo criado dinamicamente, suas alterações aqui poderão ficar diferentes ou não ser exibidas como desejado.",
+	"Enable sitemap": "Exibir no sitemap",
+	"Priority":"Prioridade",
+	"Change frequency":"Frequência de mudança",
+	"Choose frequency":"Escolha a frequência",
+	"Never": "Nunca",
+	"Yearly": "Anualmente",
+	"Monthly": "Mensalmente",
+	"Weekly": "Semanalmente",
+	"Daily": "Diariamente",
+	"Hourly": "De hora em hora",
+	"Always": "Sempre"
+}

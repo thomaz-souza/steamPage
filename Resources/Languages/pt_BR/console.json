@@ -1,0 +1,16 @@
+{
+    "Starting...": "INICIANDO",
+    "Calling method": "CHAMANDO M\u00c9TODO",
+    "Malformed request. Expecting following information \"class:function\"": "Requisi\u00e7\u00e3o incorreta. \u00c9 esperado receber a seguinte forma\u00e7\u00e3o \"classe:funcao\"",
+    "ERROR": "ERRO",
+    "Class '%s' doesn't exists": "A classe '%s' n\u00e3o existe",
+    "Method '%s' doesn't exists in this class": "O m\u00e9todo '%s' n\u00e3o existe nesta classe",
+    "Finished. (Execution time: %s)": "FINALIZADO (Tempo de execu\u00e7\u00e3o: %s)",
+    "Current date": "Data atual",
+    "RUNNING": "EXECUTANDO",
+    "Invalid method":"Método inválido",
+    "Finished cron tasks": "Finalizada execução de tarefas agendadas",
+    "Starting cron tasks": "Iniciando execução de tarefas agendadas",
+    "Ready":"Pronto",
+    "Listing cron tasks":"Listando tarefas do cron"
+}

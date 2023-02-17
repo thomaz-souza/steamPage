@@ -1,0 +1,66 @@
+.edittag-box{
+	width: 140px;
+	padding: 10px 0px 10px 10px;
+	display: flex;
+	position: fixed;
+	top: 20px;
+	right: -141px;
+	z-index: 999;
+	background-color: #FFF;
+	flex-direction: column;
+	border-radius: 5px 0px 0px 5px;
+	border: 1px solid #E9E9E9;
+	transition: 0.3s all ease;
+	-webkit-box-shadow: 0px 0px 33px -7px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 33px -7px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 33px -7px rgba(0,0,0,0.75);
+}
+.edittag-box:hover{
+	right: 0px;
+}
+.edittag-box-button{
+	font-family: sans-serif;
+	padding:10px 5px;
+	font-size: 12px;
+	color: #FFF;
+	cursor: pointer;
+	transition: 0.3s all ease;
+}
+.edittag-box-button:hover{
+	opacity: 0.8;
+}
+.edittag-button-editor{
+	background-color: #aa80ff;
+}
+.edittag-button-save{
+	background-color: #6ab95f;
+}
+.edittag-button-reset{
+	background-color: #8080ff;
+}
+.edittag-title{
+	padding-bottom:10px;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.edittag-editablecontent{
+	transition: 0.3s all ease;
+}
+.edittag-editablecontent:hover{
+	opacity: 0.5;
+}
+
+.edittag-editablecontent-highlight
+{
+	border: 1px solid #ff3300;	
+}
+.edittag-textarea{
+	border: 1px dashed #ff3300;
+	border-left-color: #ff3300;
+	padding-left:0px;
+	margin:-6px -1px ;
+	position: relative;
+	resize: none;
+}

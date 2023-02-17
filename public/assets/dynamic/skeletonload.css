@@ -1,0 +1,42 @@
+@keyframes sk-load-bg{
+    0%{ background-position: 200%;  }    
+    100%{ background-position: 0%;  }
+}
+
+.skeleton-load div{
+    background: linear-gradient(to left, #F0F0F0, #F9F9F9, #F0F0F0);
+    background-size: 200%  !important;
+    background-position: 0%;
+    animation: 1s ease sk-load-bg infinite;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.skeleton-load h6,
+.skeleton-load h5,
+.skeleton-load h4,
+.skeleton-load h3,
+.skeleton-load h2,
+.skeleton-load h1,
+.skeleton-load span,
+.skeleton-load p,
+.skeleton-load i,
+.skeleton-load strong,
+.skeleton-load em,
+.skeleton-load a,
+.skeleton-load button
+{
+    color: transparent !important;
+    /*background-color: #E3E3E3 !important;*/
+    background: linear-gradient(to left, #F0F0F0, #F9F9F9, #F0F0F0);
+    background-size: 200%  !important;
+    animation: 0.5s ease sk-load-bg infinite !important;
+    border-color: transparent !important;
+}
+
+.skeleton-load img,
+.skeleton-load svg,
+.skeleton-load figure
+{
+    display: none !important;
+}

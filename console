@@ -1,0 +1,13 @@
+<?php
+/**
+* Módulo de consultas via console
+*
+* @author   Lucas/Postali
+*/
+    require_once 'main.php';
+
+    context(CONTEXT_CONSOLE_BASH);
+
+    $console = new Console\Console();
+
+?>

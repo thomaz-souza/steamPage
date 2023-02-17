@@ -1,0 +1,10 @@
+{
+    "It is not possible to update multiple values. It is expected a associative array.": "N\u00e3o \u00e9 poss\u00edvel atualizar m\u00faltiplos valores. \u00c9 esperado um array associativo.",
+    "For security reasons you need to declare conditions with 'where' clause for this operation": "Por motivos de seguran\u00e7a voc\u00ea precisa declarar condi\u00e7\u00f5es atrav\u00e9s da cl\u00e1usula 'where' para essa opera\u00e7\u00e3o.",
+    "Searching tables in database '%s' from server '%s'": "Buscando tabelas da base de dados '%s' no banco '%s'",
+    "'%s' tables found": "%s tabelas encontradas",
+    "Generating model for table '%s' as '%s'": "Gerando Model para a tabela %s como %s",
+    "ATTENTION: Do not change this file. It was automatically generated and can be deleted in future": "ATEN\u00c7\u00c3O: N\u00e3o altere esse arquivo. Ele foi gerado automaticamente e poder\u00e1 ser deletado no futuro",
+    "Auto generated Model from server '%s' database '%s' for table '%s'": "Model gerado automaticamente do servidor '%s' e base de dados '%s' para a tabela '%s'",
+    "Column '%s' is not part of table '%s'": "A coluna '%s' n\u00e3o faz parte da tabela '%s'"
+}
