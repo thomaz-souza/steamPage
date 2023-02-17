@@ -4,14 +4,14 @@ Descrição do projeto
 
 ## Autores
 
-**Layout**  
-**Frontend**   
-**Backend**  
+**Layout**  Steam Productions
+**Frontend**   Thomaz Souza
+**Backend**  Thomaz Souza
 
 ## Infraestrutura
-
+Js - Vue
 PHP - Framework Postali
 
 ## Servidor
-
+Localhost
 Detalhes da hospedagem
